@@ -1,0 +1,49 @@
+{
+  "name": "inter-mediator/simple-bbs",
+  "version": "1",
+  "time": "2018-05-24",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/INTER-Mediator/IMApp_SimpleBBS.git"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.4.0",
+    "ext-mbstring": "*",
+    "ext-PDO": "*",
+    "ext-bcmath": "*",
+    "mouf/nodejs-installer": "*"
+  },
+  "require-dev": {
+    "inter-mediator/inter-mediator": "^6",
+  },
+  "autoload": {
+    "psr-4": {
+    },
+  },
+  "description": "Simple BBS Web Application with Using INTER-Mediator.",
+  "type": "application",
+  "keywords": [
+    "INTER-Mediator",
+    "application",
+    "bbs",
+    "sample"
+  ],
+  "homepage": "https://inter-mediator.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "INTER-Mediator Directive Committee",
+      "homepage": "http://inter-mediator.org/"
+    }
+  ],
+  "support": {
+    "community-jp": "https://www.facebook.com/groups/233378356708157/",
+    "community-en": "https://www.facebook.com/groups/254446237922985/",
+    "source": "https://github.com/INTER-Mediator/IMApp_SimpleBBS",
+    "manual": "http://inter-mediator.info/"
+  },
+}
