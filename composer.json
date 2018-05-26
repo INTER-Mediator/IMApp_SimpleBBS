@@ -18,7 +18,7 @@
     "mouf/nodejs-installer": "*"
   },
   "require-dev": {
-    "inter-mediator/inter-mediator": "^6.",
+    "inter-mediator/inter-mediator": "^6"
   },
   "autoload": {
     "psr-4": {
@@ -45,5 +45,5 @@
     "community-en": "https://www.facebook.com/groups/254446237922985/",
     "source": "https://github.com/INTER-Mediator/IMApp_SimpleBBS",
     "manual": "http://inter-mediator.info/"
-  },
+  }
 }
