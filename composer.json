@@ -16,7 +16,7 @@
     "ext-PDO": "*",
     "ext-bcmath": "*",
     "mouf/nodejs-installer": "*",
-    "inter-mediator/inter-mediator": "6-dev"
+    "inter-mediator/inter-mediator": "6.*@dev"
   },
   "require-dev": {},
   "autoload": {},
