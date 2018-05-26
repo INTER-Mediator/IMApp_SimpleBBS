@@ -18,6 +18,7 @@
     "mouf/nodejs-installer": "*",
     "inter-mediator/inter-mediator": "6.*@dev"
   },
+  "minimum-stability": "dev",
   "require-dev": {},
   "autoload": {},
   "description": "Simple BBS Web Application with Using INTER-Mediator.",
