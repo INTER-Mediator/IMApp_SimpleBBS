@@ -15,11 +15,10 @@
     "ext-mbstring": "*",
     "ext-PDO": "*",
     "ext-bcmath": "*",
-    "mouf/nodejs-installer": "*"
+    "mouf/nodejs-installer": "*",
+    "inter-mediator/inter-mediator": "6-dev"
   },
-  "require-dev": {
-    "inter-mediator/inter-mediator": "^6"
-  },
+  "require-dev": {},
   "autoload": {},
   "description": "Simple BBS Web Application with Using INTER-Mediator.",
   "type": "application",
