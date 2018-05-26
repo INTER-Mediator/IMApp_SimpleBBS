@@ -18,7 +18,7 @@
     "mouf/nodejs-installer": "*"
   },
   "require-dev": {
-    "inter-mediator/inter-mediator": "^6",
+    "inter-mediator/inter-mediator": "^6.",
   },
   "autoload": {
     "psr-4": {
