@@ -11,12 +11,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": ">=5.4.0",
-    "ext-mbstring": "*",
-    "ext-PDO": "*",
-    "ext-bcmath": "*",
-    "mouf/nodejs-installer": "*",
-    "inter-mediator/inter-mediator": "dev-master"
+    "php": ">=7.1.0",
+    "inter-mediator/inter-mediator": ">=9"
   },
   "require-dev": {},
   "autoload": {},
@@ -41,5 +37,20 @@
     "community-en": "https://www.facebook.com/groups/254446237922985/",
     "source": "https://github.com/INTER-Mediator/IMApp_SimpleBBS",
     "manual": "http://inter-mediator.info/"
+  },
+  "scripts": {
+    "test": [
+      "The software test is very important activity for the quality assuarance."
+    ],
+    "clear": [
+      "rm -rf node_modules vendor"
+    ],
+    "post-update-cmd": [
+      "cd ./vendor/inter-mediator/inter-mediator; npm install",
+      "cd ./vendor/inter-mediator/inter-mediator; npm update"
+    ],
+    "post-install-cmd": [
+      "cd ./vendor/inter-mediator/inter-mediator; npm install"
+    ]
   }
 }
