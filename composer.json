@@ -52,5 +52,11 @@
     "post-install-cmd": [
       "cd ./vendor/inter-mediator/inter-mediator; npm install"
     ]
+  },
+  "config": {
+    "allow-plugins": {
+      "simplesamlphp/composer-module-installer": true,
+      "mouf/nodejs-installer": true
+    }
   }
 }
