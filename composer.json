@@ -1,7 +1,7 @@
 {
   "name": "inter-mediator/simple-bbs",
-  "version": "1",
-  "time": "2018-05-24",
+  "version": "2",
+  "time": "2022-01-14",
   "repositories": [
     {
       "type": "git",
