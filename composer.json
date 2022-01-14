@@ -14,7 +14,6 @@
     "php": ">=7.1.0",
     "inter-mediator/inter-mediator": ">=9"
   },
-  "require-dev": {},
   "autoload": {},
   "description": "Simple BBS Web Application with Using INTER-Mediator.",
   "type": "application",
