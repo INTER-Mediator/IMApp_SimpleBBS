@@ -46,10 +46,12 @@
     ],
     "post-update-cmd": [
       "cd ./vendor/inter-mediator/inter-mediator; npm install",
-      "cd ./vendor/inter-mediator/inter-mediator; npm update"
+      "cd ./vendor/inter-mediator/inter-mediator; npm update",
+      "cd ./vendor/inter-mediator/inter-mediator/dist-docs; ./generateminifyjshere.sh"
     ],
     "post-install-cmd": [
-      "cd ./vendor/inter-mediator/inter-mediator; npm install"
+      "cd ./vendor/inter-mediator/inter-mediator; npm install",
+      "cd ./vendor/inter-mediator/inter-mediator/dist-docs; ./generateminifyjshere.sh"
     ]
   },
   "config": {
